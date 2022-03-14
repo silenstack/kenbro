@@ -1,23 +1,23 @@
 <?php
 include 'conn.php';
 
-$sql = "CREATE TABLE customer(
-    entry_no varchar(50) PRIMARY KEY,
+$sql = "CREATE TABLE employee(
+    serial_no varchar(50) PRIMARY KEY,
     fname TEXT NOT NULL,
     lname text not null,
     email varchar(50),
     phone varchar(50),
-    residence varchar(50),
+    role varchar(250),
     username varchar(50),
     password VARCHAR(250),
     status int default 0,
     remarks varchar(200),
     date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-  )"; //entry_no,fname,lname,email,phone,residence,username,status,remarks,date
+  )"; //serial_no,fname,lname,email,phone,address,username,status,remarks,date
 $result = mysqli_query($db, $sql);
 if (!$result) {
     die("Connection failed: " . $db->connect_error);
 } else {
-    echo "Customer table created successfully";
+    echo "Staff table created successfully";
 }
 mysqli_close($db);
