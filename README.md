@@ -21,7 +21,7 @@ To get started with Kenbro Industries Mobile Application, follow these steps:
 
 ## Support
 
-For any assistance or inquiries, please contact our support team at support@kenbroindustries.com.
+For any assistance or inquiries, please contact our support team at mwawaihenry@gmail.com.
 copyright reserved 2024 kenbro indusrties 
 
 ## Web Interface Login and Dashboard !!
