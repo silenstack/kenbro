@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/img"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/img"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".Customer.ServRece"
+            android:exported="false"
+            android:parentActivityName=".Customer.ServiceNew">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Install.MyMess"
+            android:exported="false"
+            android:parentActivityName=".Install.InstallDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Invent.PastSup"
+            android:exported="false"
+            android:parentActivityName=".Invent.Suppliers">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Supplier.OldTender"
+            android:exported="false"
+            android:parentActivityName=".Supplier.SupDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Customer.Delivery"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Driver.NewDrive"
+            android:exported="false"
+            android:parentActivityName=".Driver.DriverDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Dispa.DispHome"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Dispa.DispReset"
+            android:exported="false"
+            android:parentActivityName=".Dispa.DisLog">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Dispa.DispReg"
+            android:exported="false"
+            android:parentActivityName=".Dispa.DisLog">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Dispa.DisLog"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Customer.FinishedProj"
+            android:exported="false"
+            android:parentActivityName=".Customer.ServiceNew">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Artisan.ProjeHis"
+            android:exported="false"
+            android:parentActivityName=".Artisan.ArtisanDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Artisan.NewProj"
+            android:exported="false"
+            android:parentActivityName=".Artisan.ArtisanDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Finance.RejServ"
+            android:exported="false"
+            android:parentActivityName=".Finance.ServicePay">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Finance.AppServ"
+            android:exported="false"
+            android:parentActivityName=".Finance.ServicePay">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Install.ComplHist"
+            android:exported="false"
+            android:parentActivityName=".Install.CompletePro">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Install.CompletePro"
+            android:exported="false"
+            android:parentActivityName=".Install.InstallDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Install.AssignHist"
+            android:exported="false"
+            android:parentActivityName=".Install.AssignArt">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Install.AssignArt"
+            android:exported="false"
+            android:parentActivityName=".Install.InstallDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Install.ServiceHist"
+            android:exported="false"
+            android:parentActivityName=".Install.NewService">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Install.NewService"
+            android:exported="false"
+            android:parentActivityName=".Install.InstallDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Finance.HistPay"
+            android:exported="false"
+            android:parentActivityName=".Finance.PaySup">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Finance.ServicePay"
+            android:exported="false"
+            android:parentActivityName=".Finance.FinaDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Finance.PaySup"
+            android:exported="false"
+            android:parentActivityName=".Finance.FinaDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Supplier.SupPAy"
+            android:exported="false"
+            android:parentActivityName=".Supplier.SupDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Driver.DriveHistory"
+            android:exported="false"
+            android:parentActivityName=".Driver.DriverDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Customer.ServiceNew"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Dispa.OldShip"
+            android:exported="false"
+            android:parentActivityName=".Dispa.DispHome">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Dispa.ShipNew"
+            android:exported="false"
+            android:parentActivityName=".Dispa.DispHome">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Customer.OrderHist"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Customer.Reports"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Customer.Services"
+            android:exported="false"
+            android:parentActivityName=".Customer.ServiceNew">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Finance.RejectP"
+            android:exported="false"
+            android:parentActivityName=".Finance.FinaPend">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Finance.ApprovP"
+            android:exported="false"
+            android:parentActivityName=".Finance.FinaPend">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Finance.FinaPend"
+            android:exported="false"
+            android:parentActivityName=".Finance.FinaDash">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Invent.ManageBid"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:parentActivityName=".Invent.InventDash"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Supplier.SupHist"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:parentActivityName=".Supplier.SupDash"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Invent.Suppliers"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:parentActivityName=".Invent.InventDash"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Invent.Messag"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:parentActivityName=".Invent.InventDash"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Customer.Messages"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Customer.Cart"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Customer.Classification"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustDash"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Invent.ViewProd"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:parentActivityName=".Invent.InventDash"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Supplier.SupDash"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Supplier.SuppReset"
+            android:exported="false"
+            android:parentActivityName=".Supplier.SuppLog" />
+        <activity
+            android:name=".Supplier.SuppReg"
+            android:exported="false"
+            android:parentActivityName=".Supplier.SuppLog" />
+        <activity
+            android:name=".Supplier.SuppLog"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Invent.InventReset"
+            android:exported="false"
+            android:parentActivityName=".Invent.InventLog" />
+        <activity
+            android:name=".Invent.InventDash"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Invent.InventReg"
+            android:exported="false"
+            android:parentActivityName=".Invent.InventLog" />
+        <activity
+            android:name=".Invent.InventLog"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Install.InstallDash"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Install.InstallReset"
+            android:exported="false"
+            android:parentActivityName=".Install.InstallLog" />
+        <activity
+            android:name=".Install.InstallReg"
+            android:exported="false"
+            android:parentActivityName=".Install.InstallLog" />
+        <activity
+            android:name=".Install.InstallLog"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Finance.FinaReset"
+            android:exported="false"
+            android:parentActivityName=".Finance.Finalog" />
+        <activity
+            android:name=".Finance.FinaReg"
+            android:exported="false"
+            android:parentActivityName=".Finance.Finalog" />
+        <activity
+            android:name=".Finance.FinaDash"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Finance.Finalog"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Driver.DriverReset"
+            android:exported="false"
+            android:parentActivityName=".Driver.DriverLog" />
+        <activity
+            android:name=".Driver.DriverReg"
+            android:exported="false"
+            android:parentActivityName=".Driver.DriverLog" />
+        <activity
+            android:name=".Driver.DriverLog"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Driver.DriverDash"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Customer.CustDash"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Customer.CustReg"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustLog" />
+        <activity
+            android:name=".Customer.CustReset"
+            android:exported="false"
+            android:parentActivityName=".Customer.CustLog" />
+        <activity
+            android:name=".Customer.CustLog"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Artisan.ArtisanReg"
+            android:exported="false"
+            android:parentActivityName=".Artisan.ArtisanLog" />
+        <activity
+            android:name=".Artisan.ArtsanReset"
+            android:exported="false"
+            android:parentActivityName=".Artisan.ArtisanLog" />
+        <activity
+            android:name=".Artisan.ArtisanDash"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Artisan.ArtisanLog"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>
