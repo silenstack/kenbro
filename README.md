@@ -33,8 +33,6 @@ copyright reserved 2024 kenbro indusrties
 
 ## Kenbro Mobile Application User Interface
 
-![user interface](https://github.com/silenstack/kenbro/assets/57324329/2ba0b5c3-2cca-4943-ad9f-e16ccbf2d9ba)
-
-![customer interface](https://github.com/silenstack/kenbro/assets/57324329/e1e2cf8a-a9f0-4009-8b53-29085822aaa6)
+![user interface](https://github.com/silenstack/kenbro/assets/57324329/2ba0b5c3-2cca-4943-ad9f-e16ccbf2d9ba)  ![customer interface](https://github.com/silenstack/kenbro/assets/57324329/e1e2cf8a-a9f0-4009-8b53-29085822aaa6)
 
 
